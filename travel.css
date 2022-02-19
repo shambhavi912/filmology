@@ -86,13 +86,18 @@
   margin-left: auto;
   margin-right: auto;
 }
+.article-img
+{
+  width: 70%;
+}
 @media screen and (max-width: 600px)
 {
-  .article
+  .article-img
   {
     width: 100%;
   }
 }
+
 /*-------------- footer styling --------------*/
 footer
 {

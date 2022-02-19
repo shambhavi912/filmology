@@ -5,12 +5,10 @@
   text-align: center;
   color: black;
 }
-.white-text
-{
-  color: white;
-}
+
 /*------------------- back to top styling -------------------*/
-#myBtn {
+#myBtn
+{
   display: none;
   position: fixed;
   bottom: 20px;
@@ -25,9 +23,21 @@
   padding: 15px;
   border-radius: 4px;
 }
-
-#myBtn:hover {
+#myBtn:hover
+{
   background-color: #555;
+}
+@media screen and (max-width: 768px)
+{
+  #myBtn
+  {
+    border: 2px solid black;
+    background-color: pink;
+  }
+  #myBtn:hover
+  {
+    background-color: rgb(222, 202, 176); /* idk the name of th ecolour */
+  }
 }
 /*------------------- back to top styling -------------------*/
 
@@ -111,7 +121,7 @@
   color: blue;
   font-size: 20px;
 }
-@media screen and (max-width: 600px)
+@media screen and (max-width: 768px)
 {
   #article-image
   {
@@ -122,6 +132,7 @@
     width: 90%;
   }
 }
+
 /*------------------- articles styling -------------------*/
 
 /*-------------- ABOUT US and JOIN US styling --------------*/
@@ -132,10 +143,11 @@
   width: auto;
   margin: 30px 0px 0px 0px;
 }
-.other h2 p
+.white-text
 {
   color: white;
 }
+
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_newsletter copied and modified */
 form
 {
