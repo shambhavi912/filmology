@@ -63,15 +63,12 @@
     display: block;
   }
 }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
 /*------------------- stadardised navigation bar styling -------------------*/
 
 /*------------------- stadardised footer styling -------------------*/
 #footer
-=======
-=======
->>>>>>> Stashed changes
+
 @media screen and (max-width: 600px)
 {
   .topnav.responsive {position: relative;}
@@ -128,10 +125,7 @@ footer
   margin-right: auto;
 }
 iframe
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
 {
   display: block;
   margin-left: auto;
