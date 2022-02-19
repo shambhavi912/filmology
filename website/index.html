@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--enter description below-->
+    <meta name="description" content="Your description goes here">
+    <!--Page title & logo-->
+    <title>Film and TV Club</title>
+    <link rel="icon" type="image/png" href="Images/icon.png" />
+    <!--Stylesheet Import-->
+    <link href="index.css" rel="stylesheet"/>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- for navbar-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="index.js"></script>
+  </head>
+
+<body>
+
+  <!-- scroll to top -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+  <!-- standardised navigation bar-->
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">F I L M O L O G Y</a>
+    <a href="review.html">Review</a>
+    <a href="recipe.html">Recipe</a>
+    <a href="fashion.html">Fashion</a>
+    <a href="travel.html">Travel</a>
+    <a href="music.html">Music</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+<!-- intro slideshow -->
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+    </ul>
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Images/reviewCarousel.jpg" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="Images/recipeCarousel.jpg" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="Images/fashionCarousel.jpg" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="Images/travelCarousel.jpg" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="Images/musicCarousel.jpg" width="1100" height="500">
+      </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <!--ARTICLES-->
+  <section>
+    <br>
+    <div class="article">
+      <h1> R E V I E W </h1>
+      <img id="article-image" src="Images/review_home.jpg" alt="Andrew Garfield in Tick Tick... Boom"/>
+    <!-- taken and modified from bookmarked glossary website-->
+      <div class="article-heading">
+        <p> A Netflix Musical </p> <!--change this to span element?-->
+        <a href="review.html">Andrew Garfield pays splendid tribute to a ‘Rent’ legend in ‘Tick, Tick … Boom!’</a>
+      </div>
+    </div>
+  </section>
+  <section>
+    <br>
+    <div class="article">
+      <h1> R E C I P E </h1>
+      <img id="article-image" src="Images/recipe_home.jpg" alt="Turkish Delight in the Narnia Movie"/>
+    <!-- taken and modified from bookmarked glossary website-->
+      <div class="article-heading">
+        <p> Fantasy Foods </p> <!--change this to span element?-->
+        <a href="recipe.html">Authentic Turkish Delight Recipe from Narnia</a>
+      </div>
+    </div>
+  </section>
+
+  <!--ABOUT US-->
+  <section>
+    <div class="other">
+      <h2 class="white-text">About Us</h2>
+      <p class="white-text"> This is the paragraph about us. Here, I will write about the club - the origin, th founders, the motto and vision etc.
+      </p>
+    </div>
+  </section>
+
+  <!--ARTICLES-->
+  <section>
+    <div class="article">
+      <br>
+      <h1> F A S H I O N </h1>
+      <img id="article-image" src="Images/fashion_home.jpg" alt="Euphoria, Season 2"/> <!--change to a s2 picture maybe-->
+      <!-- taken and modified from bookmarked glossary website-->
+      <div class="article-heading">
+        <p> As worn on TV </p> <!--change this to span element?-->
+        <a href="fashion.html">Decoding every outfit on season 2 of Euphoria</a>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="article">
+      <br>
+      <h1> T R A V E L </h1>
+      <img id="article-image" src="Images/travel_home.jpg" alt="Grand Budapest Hotel"/>
+      <!-- taken and modified from bookmarked glossary website-->
+      <div class="article-heading">
+        <p> Pack Your Bags </p> <!--change this to span element?-->
+        <a href="travel.html">10 Best Movie Locations Worth Travelling To</a>
+      </div>
+    </div>
+  </section>
+
+  <!--SIGN UP FOR NEWSLETTER-->
+  <section>
+    <div class="other">
+      <h2 class="white-text">Join Us!</h2>
+      <p class="white-text"> sign up for our weekly newsletter here! Lorem ipsum text about why you should
+      subscribe to our newsletter blabla. Lorem ipsum text about why you should subscribe
+      to our newsletter blabla.
+      </p>
+        <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_newsletter copied and modified -->
+        <form>
+          <div class="container">
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Email address" name="mail" required>
+          </div>
+          <div class="container">
+            <input type="submit" onclick="alert('Thank you for subscribing!')" value="Subscribe"> <!-- add a thanks for subscribing pop up-->
+          </div>
+        </form>
+    </div>
+  </section>
+
+  <!--ARTICLE-->
+  <section>
+    <div class="article">
+      <br>
+      <h1> M U S I C </h1>
+      <img id="article-image" src="Images/music_home.jpg" alt="Mamma Mia Poster"/>
+      <!-- taken and modified from bookmarked glossary website-->
+      <div class="article-heading">
+        <p> Don’t just watch it, sing it! </p> <!--change this to span element?-->
+        <a href="music.html">30 of the Best Movie Soundtracks</a>
+      </div>
+      <br>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+          <p id="footer">F I L M O L O G Y</p>
+        </div>
+        <div class="col-sm-4">
+          <p id="footer">#09-250, ABC Avenue, Singapore</p>
+        </div>
+        <div class="col-sm-4">
+          <img src="Images/facebook.png">
+          <img src="Images/youtube.png">
+          <img src="Images/twitter.png">
+          <img src="Images/instagram.png">
+          <img src="Images/pinterest.png">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+</html>
