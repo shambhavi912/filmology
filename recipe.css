@@ -4,6 +4,13 @@
   font-family: serif, Times New Roman, Georgia;
   color: black;
 }
+@media screen and (max-width: 600px)
+{
+  *
+  {
+    text-align: justify;
+  }
+}
 html
 {
   scroll-behavior: smooth;
