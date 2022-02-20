@@ -9,6 +9,10 @@ html
 {
   scroll-behavior: smooth;
 }
+p
+{
+  text-align: justify;
+}
 
 /* back to top styling */
 /* modified from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top */
@@ -103,7 +107,24 @@ html
   }
 }
 
+/* title styling */
+.title
+{
+  text-align: center;
+}
+
 /* article styling */
+.article-heading
+{
+  font-size:500%;
+}
+@media screen and (max-width: 992px)
+{
+  .article-heading
+  {
+    font-size:300%;
+  }
+}
 .article-img
 {
   display: block;
@@ -127,9 +148,16 @@ html
   {
     width: 100%;
   }
-  .article
+}
+.article-subheading
+{
+  font-size:350%;
+}
+@media screen and (max-width: 992px)
+{
+  .article-subheading
   {
-    width:100%;
+    font-size:200%;
   }
 }
 
@@ -193,4 +221,5 @@ footer
 {
   color: white;
   padding: 15px 0;
+  text-align: center;
 }
