@@ -1,4 +1,24 @@
 
+.article
+{
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.article-img
+{
+  width: 70%;
+}
+@media screen and (max-width: 600px)
+{
+  .article-img
+  {
+    width: 100%;
+  }
+}
+
+
 /* overall page styling */
 *
 {
@@ -7,7 +27,8 @@
   color: black;
 }
 /*------------------- back to top styling -------------------*/
-#myBtn {
+#myBtn
+{
   display: none;
   position: fixed;
   bottom: 20px;
@@ -18,29 +39,42 @@
   outline: none;
   background-color: rgb(222, 202, 176); /* idk the name of th ecolour */
   color: white;
-  color: white;
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
 }
-
-#myBtn:hover {
+#myBtn:hover
+{
   background-color: #555;
 }
+@media screen and (max-width: 768px)
+{
+  #myBtn
+  {
+    border: 2px solid black;
+    background-color: pink;
+  }
+  #myBtn:hover
+  {
+    background-color: rgb(222, 202, 176); /* idk the name of th ecolour */
+  }
+}
 /*------------------- back to top styling -------------------*/
+
+
 /*------------------- navbar styling -------------------*/
 .topnav
 {
   overflow: hidden;
-  background-color: rgb(176, 196, 222);
+  background-color: black;
 }
 .topnav a
 {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 35px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -61,9 +95,6 @@
     float: right;
     display: block;
   }
-}
-@media screen and (max-width: 600px)
-{
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon
   {
@@ -79,25 +110,6 @@
   }
 }
 /*------------------- navbar styling -------------------*/
-.article
-{
-  width: 70%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.article-img
-{
-  width: 70%;
-}
-@media screen and (max-width: 600px)
-{
-  .article-img
-  {
-    width: 100%;
-  }
-}
-
 /*-------------- footer styling --------------*/
 footer
 {
@@ -105,9 +117,16 @@ footer
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: rgb(176, 196, 222);
+   background-color: black;
    color: white;
    text-align: center;
-   padding: 70px 0;
+   padding-top: 35px;
+   padding-bottom: 30px;
 }
+#footer
+{
+  color: white;
+  padding: 15px 0;
+}
+/*------
 /*-------------- footer styling --------------*/
