@@ -1,139 +1,54 @@
-
-h1
-{
-  color: white;
-}
-
-/* jump buttons*/
-.button
-{
-  background-color: pink;
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  margin: auto;
-
-}
-
-.heading
-{
-  text-align: center;
-  text-transform: capitalize;
-}
-.box
-{
-  background-color: white;
-  width: 70%;
-  border: 0px;
-  padding: 10px;
-  margin: auto;
-}
-.portrait-images
-{
-  width: 60%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-#recipe-card
-{
-  background-color: rgb(220, 220, 220);
-  width: 70%;
-  border: 3px solid black;
-  padding: 10px;
-  margin: auto;
-}
-@media only screen and (max-width: 600px)
-{
-  .portrait-images
-  {
-    width: 100%;
-  }
-  .box
-  {
-    width: 70%;
-    padding: 0px;
-  }
-  #recipe-card
-  {
-    width: 70%;
-  }
-}
-
-
-/*----------------------- recipe card styling -----------------------*/
-.recipe-images
-{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 50%;
-}
-/*----------------------- recipe card styling -----------------------*/
-#last-img
-{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 70%;
-  height: auto;
-}
-
-
-
-
-
 /* overall page styling */
 *
 {
-  font-family: serif, Times New Roman;
-  text-align: center;
+  font-family: serif, Times New Roman, Georgia;
   color: black;
 }
-/*------------------- back to top styling -------------------*/
+html
+{
+  scroll-behavior: smooth;
+}
+
+/* back to top styling */
+/* modified from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top */
 #myBtn
 {
   display: none;
   position: fixed;
-  bottom: 20px;
+  bottom: 30px;
   right: 30px;
   z-index: 99;
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: rgb(222, 202, 176); /* idk the name of th ecolour */
-  color: white;
+  background-color: rgb(222, 202, 176);
+  color: black;
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
 }
 #myBtn:hover
 {
-  background-color: #555;
+  background-color: rgb(169, 169, 169);
+  color: white;
 }
-@media screen and (max-width: 768px)
+@media screen and (max-width: 992px)
 {
   #myBtn
   {
     border: 2px solid black;
-    background-color: pink;
+    background-color: rgb(169, 169, 169);
+    color: white;
   }
   #myBtn:hover
   {
-    background-color: rgb(222, 202, 176); /* idk the name of th ecolour */
+    background-color: rgb(222, 202, 176);
+    color: black;
   }
 }
-/*------------------- back to top styling -------------------*/
 
-
-/*------------------- navbar styling -------------------*/
+/* navbar styling */
+/* modified from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav */
 .topnav
 {
   overflow: hidden;
@@ -145,13 +60,13 @@ h1
   display: block;
   color: white;
   text-align: center;
-  padding: 35px 16px;
+  padding: 30px 20px;
   text-decoration: none;
   font-size: 17px;
 }
 .topnav a:hover
 {
-  background-color: rgb(222, 202, 176); /* idk the name of th ecolour */
+  background-color: rgb(222, 202, 176);
   color: black;
 }
 .topnav .icon
@@ -160,13 +75,19 @@ h1
 }
 @media screen and (max-width: 600px)
 {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child)
+  {
+    display: none;
+  }
   .topnav a.icon
   {
     float: right;
     display: block;
   }
-  .topnav.responsive {position: relative;}
+  .topnav.responsive
+  {
+    position: relative;
+  }
   .topnav.responsive .icon
   {
     position: absolute;
@@ -180,13 +101,108 @@ h1
     text-align: left;
   }
 }
-/*------------------- navbar styling -------------------*/
-/*-------------- footer styling --------------*/
+
+/* article title styling */
+.heading
+{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* jump buttons styling */
+.button
+{
+  background-color: pink;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: auto;
+}
+
+/* article styling */
+.box
+{
+  background-color: white;
+  width: 70%;
+  border: 0px;
+  padding: 10px;
+  margin: auto;
+}
+.portrait-images
+{
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 600px)
+{
+  .portrait-images
+  {
+    width: 100%;
+  }
+  .box
+  {
+    width: 70%;
+    padding: 0px;
+  }
+}
+
+/* recipe card styling*/
+#recipe-card
+{
+  background-color: rgb(222, 202, 176);
+  width: 70%;
+  border: 3px solid black;
+  padding: 10px;
+  margin: auto;
+}
+.recipe-images
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+@media only screen and (max-width: 600px)
+{
+  #recipe-card
+  {
+    width: 70%;
+  }
+  .recipe-images
+  {
+    width: 70%;
+  }
+}
+#faqs
+{
+  background-color: rgb(222, 202, 176);
+  width: 70%;
+  border: 3px solid black;
+  padding: 10px;
+  margin: auto;
+}
+#last-img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  height: auto;
+}
+
+/* footer styling */
 footer
 {
    position: static;
-   left: 0;
-   bottom: 0;
    width: 100%;
    background-color: black;
    color: white;
@@ -194,10 +210,8 @@ footer
    padding-top: 35px;
    padding-bottom: 30px;
 }
-#footer
+.footer-text
 {
   color: white;
   padding: 15px 0;
 }
-/*------
-/*-------------- footer styling --------------*/
