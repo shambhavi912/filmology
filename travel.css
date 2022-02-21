@@ -106,13 +106,13 @@ html
 /* article styling */
 .article-heading
 {
-  font-size:450%;
+  font-size:500%;
 }
 @media screen and (max-width: 992px)
 {
   .article-heading
   {
-    font-size:300%;
+    font-size:250%;
   }
 }
 .article

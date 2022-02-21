@@ -110,12 +110,31 @@ html
 }
 
 /* article title styling */
-.heading
+.title
 {
   text-align: center;
   text-transform: capitalize;
+  font-size: 250%;
 }
-
+@media screen and (min-width: 992px)
+{
+  .title
+  {
+    font-size: 500%;
+  }
+}
+.heading
+{
+  text-align: center;
+  font-size: 150%;
+}
+@media screen and (min-width: 992px)
+{
+  .title
+  {
+    font-size: 500%;
+  }
+}
 /* jump buttons styling */
 .button
 {

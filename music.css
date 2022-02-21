@@ -104,9 +104,16 @@ html
 }
 
 /* article styling */
-.title
+.heading
 {
-  white-space: pre;
+  font-size: 500%;
+}
+@media screen and (max-width: 992px)
+{
+  .heading
+  {
+    font-size: 250%;
+  }
 }
 #main-image
 {
