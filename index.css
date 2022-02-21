@@ -113,6 +113,10 @@ html
 }
 
 /* articles styling */
+.article-heading
+{
+  font-size: 500%;
+}
 .article-image
 {
   display: block;
@@ -120,7 +124,7 @@ html
   margin-right: auto;
   width: 70%;
 }
-.article-heading
+.article-title
 {
   background-color: rgb(222, 202, 176);
   width: 50%;
@@ -136,13 +140,21 @@ html
 }
 @media screen and (max-width: 768px)
 {
-  .article-image
-  {
-    width: 100%;
-  }
   .article-heading
   {
+    font-size: 400%;
+  }
+  .article-image
+  {
     width: 90%;
+  }
+  .article-title
+  {
+    width: 70%;
+  }
+  .article-title p
+  {
+    font-size: 70%;
   }
 }
 

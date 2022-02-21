@@ -103,9 +103,18 @@ html
   }
 }
 
-
-
-
+/* article styling */
+.article-heading
+{
+  font-size:450%;
+}
+@media screen and (max-width: 992px)
+{
+  .article-heading
+  {
+    font-size:300%;
+  }
+}
 .article
 {
   width: 70%;
