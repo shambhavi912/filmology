@@ -103,7 +103,18 @@ html
   }
 }
 
-/*paragraph styling*/
+/* article styling */
+.article-heading
+{
+  font-size:400%;
+}
+@media screen and (max-width: 992px)
+{
+  .article-heading
+  {
+    font-size:200%;
+  }
+}
 .article
 {
    background-color: white; /*change to a nicer colour*/
@@ -111,8 +122,8 @@ html
    border: 0px;
    padding: 10px;
    margin: auto;
+   font-size: 100%;
 }
-/*article image styling*/
 .article-image
 {
   display: block;
@@ -120,7 +131,6 @@ html
   margin-right: auto;
   width: 70%;
 }
-/*conclusion styling*/
 .conclusion
 {
   width: 70%;
