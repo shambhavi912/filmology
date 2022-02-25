@@ -78,7 +78,7 @@ html
 {
   display: none;
 }
-@media screen and (max-width: 600px)
+@media screen and (max-width: 768px)
 {
   .topnav a:not(:first-child)
   {
@@ -110,7 +110,7 @@ html
 /* article styling */
 .article-heading
 {
-  font-size:400%;
+  font-size:520%;
 }
 @media screen and (max-width: 992px)
 {
@@ -135,7 +135,7 @@ html
   margin-right: auto;
   width: 70%;
 }
-.conclusion
+.introduction
 {
   width: 70%;
   border: 0px;

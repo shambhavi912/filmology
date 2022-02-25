@@ -78,7 +78,7 @@ html
 {
   display: none;
 }
-@media screen and (max-width: 600px)
+@media screen and (max-width: 768px)
 {
   .topnav a:not(:first-child)
   {
@@ -115,7 +115,8 @@ html
   width: 100%;
   height: 100%;
 }
-.overlay {
+.overlay
+{
   position: absolute;
   top: 0;
   bottom: 0;
@@ -125,16 +126,18 @@ html
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: pink;
 }
 
-.carousel-item:hover .overlay {
-  opacity: 1;
+.carousel-item:hover .overlay
+{
+  opacity: 0.5;
 }
 
-.text {
-  color: white;
-  font-size: 20px;
+.text
+{
+  color: black;
+  font-size: 250%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -142,6 +145,13 @@ html
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+@media screen and (max-width: 768px)
+{
+  .text
+  {
+    font-size: 150%;
+  }
 }
 /* articles styling */
 .article-heading
