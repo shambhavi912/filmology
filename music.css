@@ -1,7 +1,7 @@
 /* overall page styling */
 *
 {
-  font-family: serif, Times New Roman;
+  font-family: serif, Times New Roman, Georgia;
   text-align: center;
   color: black;
 }
@@ -110,7 +110,7 @@ html
 /* article styling */
 .heading
 {
-  font-size: 500%;
+  font-size: 450%;
 }
 @media screen and (max-width: 992px)
 {

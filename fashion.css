@@ -1,9 +1,10 @@
 /* overall page styling */
 *
 {
-  font-family: serif, Times New Roman;
+  font-family: serif, Times New Roman, Georgia;
   text-align: center;
   color: black;
+  overflow-x: hidden;
 }
 html
 {
@@ -116,13 +117,13 @@ html
 /* article styling */
 .article-heading
 {
-  font-size:500%;
+  font-size:475%;
 }
 @media screen and (max-width: 992px)
 {
   .article-heading
   {
-    font-size:250%;
+    font-size:300%;
   }
 }
 .article-img

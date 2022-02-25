@@ -106,18 +106,17 @@ html
   }
 }
 
-/* article title styling */
-.title
+/* article heading styling */
+#title1
 {
   text-align: center;
-  text-transform: capitalize;
-  font-size: 250%;
+  font-weight: 100%;
 }
-@media screen and (min-width: 992px)
+@media screen and (max-width: 992px)
 {
   .title
   {
-    font-size: 500%;
+    font-size: 275%;
   }
 }
 .heading
