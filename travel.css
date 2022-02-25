@@ -46,6 +46,10 @@ html
     background-color: rgb(222, 202, 176);
     color: black;
   }
+  #hamburger
+  {
+      color: white;
+  }
 }
 
 /* navbar styling */
