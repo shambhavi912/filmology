@@ -108,10 +108,9 @@ html
   }
 }
 
-/* title styling */
 .title
 {
-  text-align: center;
+  font-size: 120%;
 }
 
 /* article styling */
@@ -142,12 +141,17 @@ html
   display: block;
   margin-left: auto;
   margin-right: auto;
+  font-size: 120%;
 }
 @media screen and (max-width: 600px)
 {
   .article-img
   {
     width: 100%;
+  }
+  .article
+  {
+    width: 85%;
   }
 }
 .article-subheading
@@ -160,6 +164,10 @@ html
   {
     font-size:200%;
   }
+}
+.instagram
+{
+  font-size: 120%;
 }
 
 /* photo row styling */

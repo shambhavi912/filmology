@@ -119,6 +119,10 @@ html
     font-size: 250%;
   }
 }
+.title
+{
+  font-size: 120%;
+}
 #main-image
 {
   display: block;
@@ -132,6 +136,7 @@ html
   display: block;
   margin-left: auto;
   margin-right: auto;
+  font-size: 120%;
 }
 .card
 {
@@ -139,6 +144,10 @@ html
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.card-text
+{
+  font-size: 120%;
 }
 iframe
 {

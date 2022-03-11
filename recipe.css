@@ -122,7 +122,14 @@ html
 .heading
 {
   text-align: center;
-  font-size: 150%;
+  font-size: 220%;
+}
+@media screen and (max-width: 768px)
+{
+  .heading
+  {
+    font-size: 180%;
+  }
 }
 
 /* jump buttons styling */
@@ -135,9 +142,21 @@ html
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 25px;
   cursor: pointer;
   margin: auto;
+}
+.button:hover
+{
+  border: 2px solid black;
+}
+@media only screen and (max-width: 768px)
+{
+  .button
+  {
+    padding: 15px 25px;
+    font-size: 16px;
+  }
 }
 
 /* article styling */
@@ -148,6 +167,8 @@ html
   border: 0px;
   padding: 10px;
   margin: auto;
+  text-align: justify;
+  font-size: 120%;
 }
 .portrait-images
 {
@@ -175,8 +196,9 @@ html
   background-color: rgb(222, 202, 176);
   width: 70%;
   border: 3px solid black;
-  padding: 10px;
+  padding: 30px;
   margin: auto;
+  text-align: justify;
 }
 .recipe-images
 {
@@ -192,6 +214,7 @@ html
   #recipe-card
   {
     width: 70%;
+    padding: 20px;
   }
   .recipe-images
   {
@@ -203,8 +226,16 @@ html
   background-color: rgb(222, 202, 176);
   width: 70%;
   border: 3px solid black;
-  padding: 10px;
+  padding: 30px;
   margin: auto;
+  text-align: justify;
+}
+@media only screen and (max-width: 600px)
+{
+  #faqs
+  {
+    padding: 20px;
+  }
 }
 #last-img
 {

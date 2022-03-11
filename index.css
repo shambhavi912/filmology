@@ -46,10 +46,6 @@ html
     background-color: rgb(222, 202, 176);
     color: black;
   }
-  #hamburger
-  {
-      color: white;
-  }
 }
 
 /* navbar styling */
@@ -104,6 +100,10 @@ html
     float: none;
     display: block;
     text-align: left;
+  }
+  #hamburger
+  {
+      color: white;
   }
 }
 
@@ -172,7 +172,7 @@ html
   border: 0px;
   padding: 10px;
   margin: auto;
-  font-size: 20px
+  font-size: 20px;
 }
 .article a
 {
@@ -209,7 +209,17 @@ html
 }
 .white-text
 {
+  margin-left: auto;
+  margin-right: auto;
   color: white;
+  width: 70%;
+}
+@media screen and (max-width: 768px)
+{
+  .white-text
+  {
+    width: 90%;
+  }
 }
 /* modified from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_newsletter copied and modified */
 form
