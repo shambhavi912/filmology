@@ -9,6 +9,7 @@ html
   scroll-behavior: smooth;
 }
 
+
 /* back to top styling */
 /* modified from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top */
 #myBtn
@@ -32,24 +33,25 @@ html
   background-color: rgb(169, 169, 169);
   color: white;
 }
-@media screen and (max-width: 992px)
-{
-  #myBtn
-  {
-    border: 2px solid black;
-    background-color: rgb(169, 169, 169);
-    color: white;
-  }
-  #myBtn:hover
-  {
-    background-color: rgb(222, 202, 176);
-    color: black;
-  }
-  #hamburger
-  {
-      color: white;
-  }
-}
+    @media screen and (max-width: 992px)
+    {
+      #myBtn
+      {
+        border: 2px solid black;
+        background-color: rgb(169, 169, 169);
+        color: white;
+      }
+      #myBtn:hover
+      {
+        background-color: rgb(222, 202, 176);
+        color: black;
+      }
+      #hamburger
+      {
+          color: white;
+      }
+    }
+
 
 /* navbar styling */
 /* modified from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav */
@@ -77,34 +79,35 @@ html
 {
   display: none;
 }
-@media screen and (max-width: 768px)
-{
-  .topnav a:not(:first-child)
-  {
-    display: none;
-  }
-  .topnav a.icon
-  {
-    float: right;
-    display: block;
-  }
-  .topnav.responsive
-  {
-    position: relative;
-  }
-  .topnav.responsive .icon
-  {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a
-  {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
+    @media screen and (max-width: 768px)
+    {
+      .topnav a:not(:first-child)
+      {
+        display: none;
+      }
+      .topnav a.icon
+      {
+        float: right;
+        display: block;
+      }
+      .topnav.responsive
+      {
+        position: relative;
+      }
+      .topnav.responsive .icon
+      {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .topnav.responsive a
+      {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    }
+
 
 /* article heading styling */
 #title
@@ -112,25 +115,26 @@ html
   text-align: center;
   font-size: 475%;
 }
-@media only screen and (max-width: 992px)
-{
-  #title
-  {
-    font-size: 275%;
-  }
-}
 .heading
 {
   text-align: center;
   font-size: 220%;
 }
-@media screen and (max-width: 768px)
-{
-  .heading
-  {
-    font-size: 180%;
-  }
-}
+    @media screen and (max-width: 768px)
+    {
+      .heading
+      {
+        font-size: 180%;
+      }
+    }
+    @media only screen and (max-width: 992px)
+    {
+      #title
+      {
+        font-size: 275%;
+      }
+    }
+
 
 /* jump buttons styling */
 .button
@@ -150,14 +154,15 @@ html
 {
   border: 2px solid black;
 }
-@media only screen and (max-width: 768px)
-{
-  .button
-  {
-    padding: 15px 25px;
-    font-size: 16px;
-  }
-}
+    @media only screen and (max-width: 768px)
+    {
+      .button
+      {
+        padding: 15px 25px;
+        font-size: 16px;
+      }
+    }
+
 
 /* article styling */
 .box
@@ -177,20 +182,29 @@ html
   margin-left: auto;
   margin-right: auto;
 }
-@media only screen and (max-width: 600px)
+#last-img
 {
-  .portrait-images
-  {
-    width: 100%;
-  }
-  .box
-  {
-    width: 70%;
-    padding: 0px;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  height: auto;
 }
+    @media only screen and (max-width: 600px)
+    {
+      .portrait-images
+      {
+        width: 100%;
+      }
+      .box
+      {
+        width: 70%;
+        padding: 0px;
+      }
+    }
 
-/* recipe card styling*/
+
+/* recipe and faq card styling*/
 #recipe-card
 {
   background-color: rgb(222, 202, 176);
@@ -209,18 +223,6 @@ html
   margin-bottom: 20px;
   width: 50%;
 }
-@media only screen and (max-width: 600px)
-{
-  #recipe-card
-  {
-    width: 70%;
-    padding: 20px;
-  }
-  .recipe-images
-  {
-    width: 70%;
-  }
-}
 #faqs
 {
   background-color: rgb(222, 202, 176);
@@ -230,21 +232,23 @@ html
   margin: auto;
   text-align: justify;
 }
-@media only screen and (max-width: 600px)
-{
-  #faqs
-  {
-    padding: 20px;
-  }
-}
-#last-img
-{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 70%;
-  height: auto;
-}
+    @media only screen and (max-width: 600px)
+    {
+      #faqs
+      {
+        padding: 20px;
+      }
+      #recipe-card
+      {
+        width: 70%;
+        padding: 20px;
+      }
+      .recipe-images
+      {
+        width: 70%;
+      }
+    }
+
 
 /* footer styling */
 footer
